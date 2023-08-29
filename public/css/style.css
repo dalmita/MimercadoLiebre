@@ -9,7 +9,7 @@
  
 }
 body{
-    background-color: yellow;
+    background-color: #eac926;
     font-size: 12px;
     font-family: "Roboto";
   
@@ -39,7 +39,8 @@ article{
   background-color: white;
   margin: 1px auto;
   text-align: left;
- 
+  display: inline-block;
+  margin-bottom: 15px;
 }
 .caja{
  text-align: center;
@@ -49,11 +50,43 @@ article{
 
  border: 5px solid #ebebeb;
  padding: 15px ;
-}
-i{
-  border: 1px solid green;
-  border-radius: 50px;
+ 
+ 
 }
 footer{
   text-align: center;
+ 
+  margin-top: 10px;
+
 }
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  }
+  .product-delivery-icon{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: relative;
+    right: 20px;
+    top: -15px;
+    }
+    .descuento {
+      position: relative;
+      }
+  
+   .precio{
+        width: 30%;
+display: flex;
+      }
+  .descuento{
+    width: 70%;
+    color:#39b54a ;
+    display: flex;
+  }
